@@ -1,4 +1,4 @@
-include theos/makefiles/common.mk
+include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = ChargeMode
 ChargeMode_FILES = ChargeModeWindow.m ChargeMode.xm
@@ -7,7 +7,7 @@ ChargeMode_CFLAGS = -fobjc-arc -std=c++11
 ChargeMode_LDFLAGS = -Wl,-segalign,4000 -Wl,-undefined,dynamic_lookup
 export ARCHS = armv7 arm64
 ChargeMode_ARCHS = armv7 arm64
-include $(THEOS_MAKE_PATH)/tweak.mk
+include $(THEOS)/makefiles/tweak.mk
 
 all::
 	@echo "[+] Copying Files..."
