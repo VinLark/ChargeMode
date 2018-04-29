@@ -1,0 +1,11 @@
+Package: com.vinlark.chargemode-v
+Name: ChargeMode-V
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Simple iPhone charging mode
+Homepage: https://vinlark.github.io/repo
+Depiction: https://vinlark.github.io/repo/depiction/chargemode-v.html
+Maintainer: Vincent Larkin <vinlark@airmail.cc>
+Author: Vincent Larkin <vinlark@airmail.cc>
+Sponsor: The Vincent Homebrew <https://vinlark.github.io>
+Section: Tweaks
