@@ -1,6 +1,6 @@
 #import "ChargeMode.h"
 
-static BOOL isIOS8;
+static BOOL isIOS9;
 static BOOL isLocked;
 
 %group ChargeModeHooks
